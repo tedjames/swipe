@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Animated } from 'react-native';
 
-export default class Ball extends Component {
+export default class AnimationExample extends Component {
   componentWillMount() {
     // Initialize and declare initial position
     this.position = new Animated.ValueXY(0, 0);
