@@ -2,7 +2,6 @@ import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Card, Button } from 'react-native-elements';
-import Ball from './src/ball';
 import Deck from './src/deck';
 
 const DATA = [
